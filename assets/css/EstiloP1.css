@@ -1,0 +1,85 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(21, 92, 245, 0.651);
+}
+
+.NavHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    width: 60px;
+}
+
+table {
+    width: 100%;
+}
+
+
+a {
+    margin-left: 30px;
+    color: white; 
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+p{
+    color:rgb(64, 64, 241);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Imagenes {
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.Imagen4 {
+    height: 240px;
+    width: 90%;
+}
+
+.SectionVideo {
+    margin-top: 60px;
+}
+
+.Video {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    margin-top: 60px;
+}
+
+.Lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InicioIconos {
+    background-color: rgb(198, 226, 243);
+}
+
+.Iconos {
+    margin-top: 40px;
+    width: 40px;
+}
